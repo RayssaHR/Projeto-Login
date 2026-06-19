@@ -17,6 +17,10 @@ body, html{
     background-color: #A396E7;
 }
 
+body{
+    background-image:linear-gradient( to bottom,#AFA3EF 70%, #20004b71);
+}
+
 main{
     display: flex;
     justify-content: center;
