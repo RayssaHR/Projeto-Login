@@ -14,7 +14,29 @@
     #photo{
         height: 200px;
     }
-    
+
+    .container{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: nowrap;
+        width: 100%;
+        margin-top: 10px;
+        margin-right: 10px;
+    }
+
+    .buttoninput{
+        background-color: #BFA9ED;
+        justify-content: center;
+        border: none;
+        margin-top: 10px;
+        padding: 10px;
+        width: 100%;
+    }
+
+    .inputwidth{
+        width: 100%;
+    }
 }
 
 @media screen and (min-width: 768px) and (max-width: 1024px){
@@ -34,6 +56,29 @@
         height: 100%;
     }
 
+
+    .container{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: nowrap;
+        width: 100%;
+        margin-top: 10px;
+        margin-right: 10px;
+    }
+
+    .buttoninput{
+        background-color: #BFA9ED;
+        justify-content: center;
+        border: none;
+        margin-top: 10px;
+        padding: 10px;
+        width: 100%;
+    }
+
+    .inputwidth{
+        width: 100%;
+    }
 }
 
 @media screen and (min-width: 1024px){
@@ -51,6 +96,27 @@
         float: left;
         width: 40vw;
         height: 100vh;
+    }
+
+    .container{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-wrap: nowrap;
+        margin-top: 20px;
+    }
+
+    .buttoninput{
+        background-color: #BFA9ED;
+        justify-content: center;
+        border: none;
+        margin-top: 20px;
+        padding: 10px;
+        width: 67%;
+    }
+
+    .inputwidth{
+        width: 62%;
     }
 
 }

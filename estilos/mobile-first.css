@@ -53,3 +53,40 @@ h1{
     font-weight: 1;
     margin-bottom: 5px;
 }
+
+
+.field{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.material-symbols-outlined{
+    color:#20004b;
+    padding-right: 10px;
+    
+}
+
+
+a{
+    color: #000;
+    display: flex;
+    justify-content: end;
+    text-decoration: none;
+}
+
+a:hover{
+    color: #20004b;
+    transition-duration: 1s;  
+}
+
+
+.buttoninput:hover{
+    background-color: #A396E7;
+    transition-duration: 1s;
+    cursor: pointer;
+}
+
+.cursor{
+    cursor: pointer;
+}
