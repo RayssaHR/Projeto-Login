@@ -15,6 +15,14 @@
         height: 200px;
     }
 
+    #forms{
+        display: flex;
+        flex-direction: column;
+        padding: 14px;
+        text-align: center;
+        margin-top: 25px;
+    }
+
     .container{
         display: flex;
         justify-content: space-between;
@@ -56,6 +64,13 @@
         height: 100%;
     }
 
+    #forms{
+        display: flex;
+        flex-direction: column;
+        padding: 14px;
+        text-align: center;
+        margin-top: 250px;
+    }
 
     .container{
         display: flex;
@@ -96,6 +111,14 @@
         float: left;
         width: 40vw;
         height: 100vh;
+    }
+
+    #forms{
+        display: flex;
+        flex-direction: column;
+        padding: 14px;
+        text-align: center;
+        margin-top: 250px;
     }
 
     .container{

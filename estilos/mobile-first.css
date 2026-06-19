@@ -41,12 +41,9 @@ main{
     background-size: cover;
 }
 
-#forms{
-    display: flex;
-    flex-direction: column;
-    padding: 14px;
-    text-align: center;
-}
+
+
+
 
 h1{
     color: #20004b;
