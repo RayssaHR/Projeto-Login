@@ -45,13 +45,6 @@ main{
     background-size: cover;
 }
 
-#container{
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    margin-top: 2%;
-}
-
 
 .forms{
     display: flex;
@@ -68,6 +61,16 @@ h1{
     font-weight: 1;
     margin-bottom: 5px;
 }
+
+.paragraph{
+    display: flex;
+    justify-content: center;
+}
+
+p{
+    width: 80%;
+}
+
 
 .inputwidth{
     width: 100%;
