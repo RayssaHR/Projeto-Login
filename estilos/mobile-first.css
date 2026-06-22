@@ -49,14 +49,14 @@ main{
     display: flex;
     flex-direction: column;
     text-align: center;
-    margin-top: 5%;
+    margin-top: 2%;
 }
 
 
 .forms{
     display: flex;
     justify-content: center;
-    margin-top: 20px;
+    margin-top: 5px;
 }
 
 .form-size{
