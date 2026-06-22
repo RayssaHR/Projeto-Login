@@ -7,43 +7,12 @@
 
 @media screen and  (max-width: 768px) {
     #login{
-        width: 350px;
-        height: 600px;
+        width: 70vw;
+        height: 70vh;
     }
 
     #photo{
-        height: 200px;
-    }
-
-    #forms{
-        display: flex;
-        flex-direction: column;
-        padding: 14px;
-        text-align: center;
-        margin-top: 2em;
-    }
-
-    .container{
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        flex-wrap: nowrap;
-        width: 100%;
-        margin-top: 10px;
-        margin-right: 10px;
-    }
-
-    .buttoninput{
-        background-color: #BFA9ED;
-        justify-content: center;
-        border: none;
-        margin-top: 10px;
-        padding: 10px;
-        width: 100%;
-    }
-
-    .inputwidth{
-        width: 100%;
+        height: 30%;
     }
 }
 
@@ -55,39 +24,8 @@
 
     #photo {
         float: left;
-        width: 30%;
-        height: 100%;
-    }
-
-    #forms{
-        display: flex;
-        flex-direction: column;
-        padding: 14px;
-        text-align: center;
-        margin-top: 4em;
-    }
-
-    .container{
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        flex-wrap: nowrap;
-        width: 100%;
-        margin-top: 10px;
-        margin-right: 10px;
-    }
-
-    .buttoninput{
-        background-color: #BFA9ED;
-        justify-content: center;
-        border: none;
-        margin-top: 10px;
-        padding: 10px;
-        width: 100%;
-    }
-
-    .inputwidth{
-        width: 100%;
+        width: 30vw;
+        height: 100vh;
     }
 }
 
@@ -102,34 +40,4 @@
         width: 40vw;
         height: 100vh;
     }
-
-    #forms{
-        display: flex;
-        flex-direction: column;
-        padding: 14px;
-        text-align: center;
-        margin-top: 2em;
-    }
-
-    .container{
-        display: flex;
-        justify-content: space-around;
-        align-items: center;
-        flex-wrap: nowrap;
-        margin-top: 20px;
-    }
-
-    .buttoninput{
-        background-color: #BFA9ED;
-        justify-content: center;
-        border: none;
-        margin-top: 20px;
-        padding: 10px;
-        width: 67%;
-    }
-
-    .inputwidth{
-        width: 62%;
-    }
-
 }

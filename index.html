@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,48 +10,70 @@
     <link rel="stylesheet" href="estilos/mobile-first.css">
     <link rel="shortcut icon" href="imagens/icon.png" type="image/x-icon">
 </head>
+
 <body>
     <main>
         <section id="login">
             <div id="photo">
-        
+
             </div>
-            <div id="forms">
-
-                <h1>LOGIN</h1>
-                <p>Seja bem-vindo(a) novamente. Faça login para acessar sua conta.</p>
-                <form action="login.php" method="post" autocomplete="on">
-
-                    <div class="field">
-                    <span class="material-symbols-outlined">Mail</span>  
-                    <input class="inputwidth" type="email" name="Email" id="iemail" required placeholder=" nome@exemplo.com " autocomplete="email" >
-                    <label for="iemail" ></label>
-                    </div>
-
-                    <div class="field">
-                        <span class="material-symbols-outlined">Key</span>
-                        <input class="inputwidth" type="password" name="Password" id="ipassword" required minlength="8" maxlength="12" placeholder=" sua senha " autocomplete="current-password" >
-                        <label for="ipassword"></label>
-                    </div> 
-
-                    <div class="container" >
-                        <div>
-                           <input class="cursor" type="checkbox" name="remember" id="iremember">
-                            <label class="cursor" for="iremember">Lembre de mim</label> 
-                        </div>
-            
-                        <div>
-                            <a class="cursor" href="#">Esqueci a senha</a> 
-                        </div>
+            <div>
+                <div id="container">
+                    <div>
+                        <h1>LOGIN</h1>
                     </div>
 
                     <div>
-                        <input class="buttoninput" type="submit" value="Entrar">
+                        <p>Seja bem-vindo(a) novamente. Faça login para acessar sua conta.</p>
                     </div>
-                    
-                </form>
+
+                    <div class="forms">
+                        <div class="form-size">
+                            <form action="login.php" method="post" autocomplete="on">
+
+                                <div>
+                                    <div class="field">
+                                        <span class="material-symbols-outlined">Mail</span>
+                                        <input class="inputwidth" type="email" name="Email" id="iemail" required
+                                            placeholder=" nome@exemplo.com " autocomplete="email">
+                                        <label for="iemail"></label>
+                                    </div>
+
+                                    <div class="field">
+                                        <span class="material-symbols-outlined">Key</span>
+                                        <input class="inputwidth" type="password" name="Password" id="ipassword"
+                                            required minlength="8" maxlength="12" placeholder=" sua senha "
+                                            autocomplete="current-password">
+                                        <label for="ipassword"></label>
+                                    </div>
+                                </div>
+
+
+                                <div class="line-remember-forgot-password">
+                                    <div>
+                                        <input type="checkbox" name="remember" id="iremember">
+                                        <label for="iremember">Lembre de mim</label>
+                                    </div>
+
+                                    <div>
+                                        <a href="#">Esqueci a senha</a>
+                                    </div>
+                                </div>
+
+                                <div>
+                                    <input class="buttoninput" type="submit" value="Entrar">
+                                </div>
+
+                            </form>
+                        </div>
+
+                    </div>
+
+                </div>
+
             </div>
         </section>
     </main>
 </body>
+
 </html>

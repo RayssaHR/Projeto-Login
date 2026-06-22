@@ -45,9 +45,23 @@ main{
     background-size: cover;
 }
 
+#container{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 3em;
+}
 
 
+.forms{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
 
+.form-size{
+    width: 80%;
+}
 
 h1{
     color: #20004b;
@@ -55,6 +69,9 @@ h1{
     margin-bottom: 5px;
 }
 
+.inputwidth{
+    width: 100%;
+}
 
 .field{
     display: flex;
@@ -68,12 +85,20 @@ h1{
     
 }
 
+.line-remember-forgot-password{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: nowrap;
+    margin-top: 20px;
+}
 
 a{
     color: #000;
     display: flex;
     justify-content: end;
     text-decoration: none;
+    cursor: pointer;
 }
 
 a:hover{
@@ -81,13 +106,18 @@ a:hover{
     transition-duration: 1s;  
 }
 
+.buttoninput{
+    background-color: #BFA9ED;
+    justify-content: center;
+    border: none;
+    margin-top: 20px;
+    padding: 10px;
+    width: 100%;
+}
+
 
 .buttoninput:hover{
     background-color: #A396E7;
     transition-duration: 1s;
-    cursor: pointer;
-}
-
-.cursor{
     cursor: pointer;
 }
