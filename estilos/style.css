@@ -5,10 +5,10 @@
 #AFA3EF roxo medio
 #A396E7 #20004b roxos escuros*/
 
-@media screen and  (max-width: 800px) {
+@media screen and  (max-width: 844px) {
     #login{
-        width: 70vw;
-        height: 70vh;
+        width: 90vw;
+        height: 90vh;
     }
 
     #photo{
@@ -22,10 +22,10 @@
     }
 }
 
-@media screen and (min-width: 801px) and (max-width: 1024px){
+@media screen and (min-width: 845px) and (max-width: 1024px){
     #login {
         width: 80vw;
-        height: 60vh;
+        height: 70vh;
     }
 
     #photo {
@@ -45,7 +45,7 @@
 @media screen and (min-width: 1024px){
     #login {
         width: 80vw;
-        height: 60vh;
+        height: 70vh;
     }
 
     #photo {
