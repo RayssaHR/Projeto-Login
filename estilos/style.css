@@ -22,7 +22,7 @@
     }
 }
 
-@media screen and (min-width: 845px) and (max-width: 1024px){
+@media screen and (min-width: 801px) and (max-width: 1024px){
     #login {
         width: 80vw;
         height: 70vh;
