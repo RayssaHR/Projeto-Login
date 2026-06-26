@@ -5,7 +5,7 @@
 #AFA3EF roxo medio
 #A396E7 #20004b roxos escuros*/
 
-@media screen and  (max-width: 844px) and (min-height: 600px ) {
+@media screen and  (max-width: 360px) and (min-height: 800px ) {
     #login{
         width: 90vw;
         height: 90vh;
