@@ -8,11 +8,11 @@
 @media screen and  (max-width: 844px) {
     #login{
         width: 90vw;
-        min-height: 90vh;
+        height: 90vh;
     }
 
     #photo{
-        height: 20vh;
+        height: 30%;
     }
 
     #container{
